@@ -1,11 +1,11 @@
 object Form1: TForm1
-  Left = 260
+  Left = 292
   Height = 309
-  Top = 357
-  Width = 320
+  Top = 223
+  Width = 611
   Caption = 'Form1'
   ClientHeight = 309
-  ClientWidth = 320
+  ClientWidth = 611
   LCLVersion = '1.4.0.4'
   object Chart1: TChart
     Left = 8
@@ -33,11 +33,12 @@ object Form1: TForm1
     end
   end
   object Edit1: TEdit
-    Left = 120
+    Left = 48
     Height = 27
-    Top = 224
+    Top = 222
     Width = 80
     TabOrder = 1
+    Text = '0.02'
   end
   object Button1: TButton
     Left = 120
@@ -47,5 +48,20 @@ object Form1: TForm1
     Caption = 'Button1'
     OnClick = Button1Click
     TabOrder = 2
+  end
+  object Edit2: TEdit
+    Left = 200
+    Height = 27
+    Top = 222
+    Width = 80
+    TabOrder = 3
+    Text = '2.7'
+  end
+  object Memo1: TMemo
+    Left = 320
+    Height = 290
+    Top = 8
+    Width = 278
+    TabOrder = 4
   end
 end
