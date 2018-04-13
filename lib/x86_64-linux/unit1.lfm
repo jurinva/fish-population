@@ -3,7 +3,7 @@ object Form1: TForm1
   Height = 309
   Top = 223
   Width = 611
-  Caption = 'Form1'
+  Caption = 'Fish-population'
   ClientHeight = 309
   ClientWidth = 611
   LCLVersion = '1.4.0.4'
@@ -30,29 +30,30 @@ object Form1: TForm1
     )
     ParentColor = False
     object FishPopulation: TLineSeries
+      LinePen.Color = clYellow
     end
   end
   object Edit1: TEdit
     Left = 48
     Height = 27
-    Top = 222
+    Top = 240
     Width = 80
     TabOrder = 1
     Text = '0.02'
   end
   object Button1: TButton
-    Left = 120
+    Left = 128
     Height = 25
-    Top = 261
+    Top = 273
     Width = 75
-    Caption = 'Button1'
+    Caption = 'Calc'
     OnClick = Button1Click
     TabOrder = 2
   end
   object Edit2: TEdit
-    Left = 200
+    Left = 216
     Height = 27
-    Top = 222
+    Top = 240
     Width = 80
     TabOrder = 3
     Text = '2.7'
@@ -64,5 +65,21 @@ object Form1: TForm1
     Width = 278
     ScrollBars = ssVertical
     TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 32
+    Height = 17
+    Top = 220
+    Width = 115
+    Caption = 'initial population'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 240
+    Height = 17
+    Top = 220
+    Width = 31
+    Caption = 'Rate'
+    ParentColor = False
   end
 end

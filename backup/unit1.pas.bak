@@ -18,6 +18,8 @@ type
     Edit2: TEdit;
     FishPopulation: TLineSeries;
     Edit1: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
     Memo1: TMemo;
     procedure Button1Click(Sender: TObject);
   private
