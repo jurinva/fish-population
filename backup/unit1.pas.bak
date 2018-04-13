@@ -15,9 +15,9 @@ type
   TForm1 = class(TForm)
     Button1: TButton;
     Chart1: TChart;
-    Edit2: TEdit;
     FishPopulation: TLineSeries;
     Edit1: TEdit;
+    Edit2: TEdit;
     Label1: TLabel;
     Label2: TLabel;
     Memo1: TMemo;
@@ -54,8 +54,6 @@ begin
         y := (r * y) * (1-y);
     FishPopulation.AddY(y);
     Memo1.Lines.Add('x='+IntToStr(x)+' y='+floatToStr(y));
-//    Memo1.Lines.Add(x+' , '+y);
-//    S.AddXY(x, sin(x));
   end;
 end;
 

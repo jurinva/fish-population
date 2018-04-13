@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectSession>
-    <Version Value="9"/>
-    <BuildModes Active="Default"/>
+    <Version Value="10"/>
+    <BuildModes Active="win10_32bit"/>
     <Units Count="2">
       <Unit0>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="project1"/>
         <EditorIndex Value="-1"/>
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
@@ -21,50 +20,12 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="38"/>
-        <CursorPos X="25" Y="53"/>
+        <TopLine Value="7"/>
+        <CursorPos X="33" Y="18"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit1>
     </Units>
-    <JumpHistory Count="9" HistoryIndex="8">
-      <Position1>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="50" Column="3" TopLine="35"/>
-      </Position1>
-      <Position2>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="46" Column="16" TopLine="33"/>
-      </Position2>
-      <Position3>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="45" Column="4" TopLine="34"/>
-      </Position3>
-      <Position4>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="41" Column="13" TopLine="35"/>
-      </Position4>
-      <Position5>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="53" Column="26" TopLine="40"/>
-      </Position5>
-      <Position6>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="50" Column="28" TopLine="39"/>
-      </Position6>
-      <Position7>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="54" Column="11" TopLine="39"/>
-      </Position7>
-      <Position8>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="50" Column="30" TopLine="37"/>
-      </Position8>
-      <Position9>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="53" Column="24" TopLine="38"/>
-      </Position9>
-    </JumpHistory>
+    <JumpHistory HistoryIndex="-1"/>
   </ProjectSession>
 </CONFIG>
